@@ -32,7 +32,7 @@ def git_auto_branch(branch_name: str, commit_message: str):
     print(f"\n🚀 Pushing branch '{branch_name}' to remote...")
     run_command(f"git push -u origin {branch_name}")
 
-    print("\n✅ All steps completed successfully!")
+    print("\n✅ All steps completed successfully!")#
 
 if __name__ == "__main__":
     # Ask for user input in terminal
