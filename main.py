@@ -39,4 +39,4 @@ if __name__ == "__main__":
     branch_name = input("Enter branch name: ").strip()
     commit_message = input("Enter commit message: ").strip()
 
-    git_auto_branch(branch_name, commit_message)
+    git_auto_branch(branch_name, commit_message)#er
